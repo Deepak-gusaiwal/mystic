@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "./components/Layout"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 
 const IndexPage = () => {
@@ -11,6 +12,9 @@ const IndexPage = () => {
       <nav>
         <Link to="/about">About Page</Link>
       </nav>
+<div className="imgBox">
+      <StaticImage src="../images/icon.png" alt="gatsby icon png"/>
+</div>
     </Layout>
   )
 }
