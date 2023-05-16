@@ -36,3 +36,20 @@ nav a{
 nav a:hover{
     color: red;
 }
+/* main css */
+main{
+    min-height: 85vh;
+    padding: 1rem;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+text-transform: capitalize;
+padding: 1rem;
+}
